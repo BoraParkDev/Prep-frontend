@@ -39,8 +39,14 @@
 
 > List Page
 
-  - 상단 카테고리 필터링 기능을 통해 카테코리 click시 
-    해당 페이지로 이동 기능 구현
+  - children 속성을 사용한 모달창 구현
+  - 동적 라우팅(query parameter)
+  - limit&offset 값 설정을 통한 pagination 구현
+  - 카테고리 필터링 기능
+  - 가격순, 별점순 등 세부 필터링 기능
+  - input의 type:range를 활용하여 가격 범위 조정
+  - checkbox 스타일 지정 및 state, props로 상태관리
+  - DB 연동된 백엔드 API 주소 데이터 시각화
 
 <br>
 
