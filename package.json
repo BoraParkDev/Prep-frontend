@@ -24,7 +24,8 @@
     "winBuild": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "aws s3 sync ./build s3://prepkorea --profile=prepkorea"
+    "deploy": "aws s3 sync ./build s3://prepkorea --profile=prep",
+    "invalidate": "aws cloudfront create-invalidation --profile=prep --distribution-id E3O1V4UKYSAA29 --paths / /index.html /error.html /service-worker.js /manifest.json /favicon.ico"
   },
   "eslintConfig": {
     "extends": [
