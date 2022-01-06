@@ -1,7 +1,7 @@
 ## Prep Project
 
 [데모 영상](https://drive.google.com/file/d/1WS_sMDCiSXfQGuiVfNW02JQXhA6RRGI5/view?usp=sharing) | 
-[웹 사이트](http://3.38.192.82:8000)
+[웹 사이트](http://18.221.140.44:8000)
 
 ### [팀명] : Prep(프렙)
 
